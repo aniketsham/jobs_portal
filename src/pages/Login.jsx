@@ -88,9 +88,9 @@ const Login = () => {
                 </div>
               </div>
               <button type="submit" disabled={loading}>
-              Register
+              Login
             </button>
-            <Link to={"/login"}>Login Now</Link>
+            <Link to={"/register"}>Register Now</Link>
 
           </form>
         </div>
